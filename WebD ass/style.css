@@ -1,0 +1,93 @@
+.tabs {
+    color:white;
+}
+.title-bar {
+    background: RGB(7,80,134)    ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 2px solid black;
+}
+
+.tabs {
+    margin: 10px;
+    
+    text-align:inherit;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 0.3mm;
+}
+.tabs:hover{
+    background: RGB(17,100,154) ;
+}
+body {
+    margin: 0%;
+    background-color: #e8e4e3;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    
+}
+#search-box {
+    background: white;
+    margin: 10px;
+    align-items: center;
+    border-radius: 2mm;
+}
+
+#searchbox {
+    background-color: #e8e4e3;
+}
+
+.about-points {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4mm;;
+    align-items: flex-start;
+    justify-items:space-around;
+    background-color: #e8e4e3;
+}
+.subpoints {
+    flex-grow: 1; 
+    flex-basis: 70px;
+    text-align: center;
+   
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-grow: 1;
+
+}
+
+.avengers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4mm;;
+    align-items: flex-start;
+    justify-items:space-around;
+    background-color:#e8e4e3;
+
+}
+
+.about-avengers {
+    flex-grow: 1; 
+    flex-basis: 70px;
+    text-align: center;
+}
+.about-avengers:hover {
+    background-color: #d9d5d4;
+}
+
+.outro {
+    background: RGB(7,80,134)    ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
